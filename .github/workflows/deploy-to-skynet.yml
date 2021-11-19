@@ -14,6 +14,11 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: .git
+
       - name: 'Deploy to Skynet'
         uses: SkynetLabs/deploy-to-skynet-action@v2
         with:
