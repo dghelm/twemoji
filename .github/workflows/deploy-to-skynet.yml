@@ -22,7 +22,7 @@ jobs:
       - name: Remove File
         uses: JesseTG/rm@v1.0.2
         with:
-          path: ./v/
+          path: ./2/
 
       - name: 'Deploy to Skynet'
         uses: SkynetLabs/deploy-to-skynet-action@v2
